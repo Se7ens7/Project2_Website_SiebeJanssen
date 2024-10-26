@@ -42,21 +42,11 @@ p {color: white;}
 
 #text
 {
-    width: 60%;
-    display: flex;
-    flex-direction: column;
     padding-top: 50px;
 }
 
 .image
 {
-    width: 35%;
-    padding-left: 20px;
-}
-
-.image > img
-{
-    width: 100%;
     border: solid black 5px;
 }
 

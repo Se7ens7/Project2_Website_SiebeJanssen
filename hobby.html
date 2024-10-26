@@ -4,104 +4,169 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="css/p4.css"/>
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/p4.css" />
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&family=Glegoo:wght@400;700&family=Kameron:wght@400..700&display=swap");
     </style>
   </head>
   <body>
-    <div class="nav">
-      <ul>
-        <li>
-          <a href="index.html">Startpagina</a>
-        </li>
-        <li>
-          <a href="cv.html">CV</a>
-        </li>
-        <li>
-          <a href="ervaring.html">Ervaring</a>
-        </li>
-        <li>
-          <a href="hobby.html">Over mij</a>
-        </li>
-        <li>
-          <a href="contact.html">Contact</a>
-        </li>
-      </ul>
-    </div>
-    <div class="header">
-      <h1>Over mij</h1>
-    </div>
-    <div class="maindiv">
-      <div id="text">
-        <p>Ik ben Siebe Janssen, 19 jaar op de teller en ik woon in Gierle.</p>
-        <p>
-          Heel vaak ben ik bezig met een computer, dit doe ik al sinds kleins af
-          aan en dit doe ik dan niet alleen om allerlei games te spelen (iets dat
-          ik toch wel heel vaak doe) maar graag maak ik ook in mijn vrije tijd 2D
-          animaties in flash8 of 3D models in Blender.
-        </p>
-        <h2>Studies</h2>
-        <p>
-          Deze passie voor computers is ook de reden dat ik ben gaan studeren bij
-          Thomas More. Zo krijg ik de verschillende programmeertalen onder de knie
-          en leer ik ook hoe en waarvoor ik die kan gebruiken. Hiermee hoop ik in
-          de toekomst een job in de IT-sector te vinden of eventueel nog bij te
-          studeren voor Bachelor.
-        </p>
-        <h2>Horeca</h2>
-        <p>
-          Voordien was ik student aan de hotelschool in Turnhout, ik heb daar 7
-          jaar lang het wel en wee van de horeca mogen opsnuiven. Hierbij heb ik
-          veel geleerd zoals:
-        </p>
-        <ul>
-          <li>De Basistechnieken</li>
-          <li>Drankenleer</li>
-          <li>Bedienen van gasten</li>
-          <li>Vaktermen</li>
-          <li>Koken op gastronomisch niveau</li>
-          <li>...en nog veel meer</li>
-        </ul>
-        <p>
-          Tijdens het laatste jaar hadden we zelfs onze eigen mini-onderneming,
-          dan moesten we zelf om de maand een nieuwe menu opstellen alsook de
-          bestellingen en facturen regelen. Dit deden we op het begin met een
-          klein bedrag en maakte we elke les winst, met die winst mocht de klas
-          zelf kiezen wat we daarmee zouden doen zolang het iets gastronomisch
-          bevatte. Onze klas is hiermee voor 3 dagen naar Ibiza getrokken waar we
-          ons zeker niet hebben verveeld, dit was ook ineens mijn eerste vlucht op
-          een vliegtuig. Ook zal ik thuis nog af en toe wat in de potten roeren,
-          dan maak ik het avondeten of het dessert.
-        </p>
-        <h2>Vrije tijd</h2>
-        <p>
-          Meerijden met de motor doe ik ook vaak, dit doe ik dan met mijn ouders,
-          wij doen dan een flinke rit door de Limburg of de Ardennen en dan
-          stoppen we al wel eens om iets te drinken bij onze vaste stopplaats, of
-          om iets te nuttigen bij een brasserie. Tot nu toe doen we dit al 8 jaar
-          lang maar kan ik enkel meerijden achterop de motor, vanaf dat ik oud
-          genoeg ben (24 jaar) ga ik wel proberen om zelf ook een rijbewijs voor
-          de motor de behalen nadat ik eerst een autorijbewijs heb behaald.
-        </p>
-        <p>
-          Motorrijden is niet al dat ik met mijn ouders doe, zo maken we al wel
-          eens een grote (of soms een kleine) wandeling door een bos of aan het
-          strand, dan stippelen we zelf een route uit om te volgen en achteraf
-          stoppen we uiteraard wel eens ergens om iets te eten. Buiten wandelen
-          maken we bij mooi weer ook al wel eens een fietstocht. Actief bezig zijn
-          vind ik zeer belangrijk vooral nu dat ik een studie doe waarbij ik vaak
-          stilzit (al moet ik dit nog bijschaven). Sportief bezig zijn is voor mij
-          soms toch wat moeite met reden dat er geen sport is die mij echt
-          aanspreekt en er in de nabijheid ook niet veel keuze is.
-        </p>
-        <p>Hopelijk heeft u met deze wat meer te weten kunnen komen over mij</p>
+    <nav class="navbar navbar-expand-lg bg-dark mb-4" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">SJ</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cv.html">CV</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ervaring.html">Ervaring</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="hobby.html">Over Mij</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="image">
-        <img src="images/f3.jpg" alt="bosfoto">
-        <img src="images/f4.jpg" alt="motorfoto">
+    </nav>
+    <main class="container">
+      <div class="row mb-4">
+        <div class="col-lg-7">
+          <div class="toptext">
+            <h1>Over mij</h1>
+            <p>
+              Ik ben Siebe Janssen, 19 jaar op de teller en ik woon in Gierle.
+            </p>
+            <p>
+              Heel vaak ben ik bezig met een computer, dit doe ik al sinds
+              kleins af aan en dit doe ik dan niet alleen om allerlei games te
+              spelen (iets dat ik toch wel heel vaak doe) maar graag maak ik ook
+              in mijn vrije tijd 2D animaties in flash8 of 3D models in Blender.
+            </p>
+          </div>
+        </div>
       </div>
-    </div>
+      <div class="row mb-4">
+        <div class="col-lg-7">
+          <div class="text">
+            <h2>Studies</h2>
+            <p>
+              Deze passie voor computers is ook de reden dat ik ben gaan
+              studeren bij Thomas More. Zo krijg ik de verschillende
+              programmeertalen onder de knie en leer ik ook hoe en waarvoor ik
+              die kan gebruiken. Hiermee hoop ik in de toekomst een job in de
+              IT-sector te vinden of eventueel nog bij te studeren voor
+              Bachelor.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row mb-4">
+        <div class="col-lg mb-4">
+          <div>
+            <h2>Horeca</h2>
+            <p>
+              Voordien was ik student aan de hotelschool in Turnhout, ik heb
+              daar 7 jaar lang het wel en wee van de horeca mogen opsnuiven.
+              Hierbij heb ik veel geleerd zoals:
+            </p>
+            <ul>
+              <li>De Basistechnieken</li>
+              <li>Drankenleer</li>
+              <li>Bedienen van gasten</li>
+              <li>Vaktermen</li>
+              <li>Koken op gastronomisch niveau</li>
+              <li>...en nog veel meer</li>
+            </ul>
+            <p>
+              Tijdens het laatste jaar hadden we zelfs onze eigen
+              mini-onderneming, dan moesten we zelf om de maand een nieuwe menu
+              opstellen alsook de bestellingen en facturen regelen. Dit deden we
+              op het begin met een klein bedrag en maakte we elke les winst, met
+              die winst mocht de klas zelf kiezen wat we daarmee zouden doen
+              zolang het iets gastronomisch bevatte. Onze klas is hiermee voor 3
+              dagen naar Ibiza getrokken waar we ons zeker niet hebben verveeld,
+              dit was ook ineens mijn eerste vlucht op een vliegtuig. Ook zal ik
+              thuis nog af en toe wat in de potten roeren, dan maak ik het
+              avondeten of het dessert.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg ms-5 mb-4">
+          <img src="images/f3.jpg" class="img-fluid image" alt="bosfoto" />
+        </div>
+      </div>
+      <div class="row mb-4">
+        <div class="col-lg mb-4">
+          <div>
+            <h2>Vrije tijd</h2>
+            <p>
+              Meerijden met de motor doe ik ook vaak, dit doe ik dan met mijn
+              ouders, wij doen dan een flinke rit door de Limburg of de Ardennen
+              en dan stoppen we al wel eens om iets te drinken bij onze vaste
+              stopplaats, of om iets te nuttigen bij een brasserie. Tot nu toe
+              doen we dit al 8 jaar lang maar kan ik enkel meerijden achterop de
+              motor, vanaf dat ik oud genoeg ben (24 jaar) ga ik wel proberen om
+              zelf ook een rijbewijs voor de motor de behalen nadat ik eerst een
+              autorijbewijs heb behaald.
+            </p>
+            <p>
+              Motorrijden is niet al dat ik met mijn ouders doe, zo maken we al
+              wel eens een grote (of soms een kleine) wandeling door een bos of
+              aan het strand, dan stippelen we zelf een route uit om te volgen
+              en achteraf stoppen we uiteraard wel eens ergens om iets te eten.
+              Buiten wandelen maken we bij mooi weer ook al wel eens een
+              fietstocht. Actief bezig zijn vind ik zeer belangrijk vooral nu
+              dat ik een studie doe waarbij ik vaak stilzit (al moet ik dit nog
+              bijschaven). Sportief bezig zijn is voor mij soms toch wat moeite
+              met reden dat er geen sport is die mij echt aanspreekt en er in de
+              nabijheid ook niet veel keuze is.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg ms-5">
+          <img src="images/f4.jpg" class="img-fluid image" alt="bosfoto" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg mb-4">
+          <div>
+            <p>
+              Hopelijk heeft u met deze wat meer te weten kunnen komen over mij!
+            </p>
+          </div>
+        </div>
+      </div>
+     
+
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

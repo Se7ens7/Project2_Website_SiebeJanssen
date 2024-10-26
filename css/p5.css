@@ -40,18 +40,8 @@ p {color: white;}
     top: 50px;
 }
 
-#text
-{
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-}
-
 .form
 {
-    width: 60%;
-    display: flex;
-    flex-direction: column;
     padding-top: 50px;
 }
 

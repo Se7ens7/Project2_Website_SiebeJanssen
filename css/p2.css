@@ -47,13 +47,6 @@ p, td {color: white;}
     padding-top:40px;
 }
 
-.list
-{
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    width: 65%;
-}
 td
 {
     padding-right: 80px;
@@ -80,19 +73,13 @@ td
     color: white;
 }
 
+
+
+
 .image
 {
-    display: inline-flex;
-    width: 10%;
-    float: inline-end;
-    padding-right: 40%;
-}
-
-
-.image > img
-{
-    width: 100%;
     border: black solid 5px;
+    max-width: 160px;
 }
 
 .extra
