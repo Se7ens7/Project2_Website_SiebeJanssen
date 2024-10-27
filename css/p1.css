@@ -4,6 +4,9 @@ body
     font-weight: 400;
     font-style: normal;
     background: linear-gradient(to right,#2C6F22 0%, #2C6F22 65%, #215419 0%, #215419 35%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 h1, h2, a {color: #FFCC00;}
@@ -54,4 +57,28 @@ li {color: white;}
 {
     max-width: 350px;
     border: solid black 5px;
+}
+
+.footer
+{
+    margin-top: auto;
+}
+
+.footerdiv
+{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+}
+
+.facbk
+{
+    color: #1877F2
+}
+
+.dc
+{
+    color: #738ADB;
 }
