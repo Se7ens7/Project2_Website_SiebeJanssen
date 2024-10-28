@@ -1,3 +1,8 @@
+@import url(https://fonts.googleapis.com/css?family=Glegoo);
+
+@import url(https://fonts.googleapis.com/css?family=Kameron);
+
+@import url(https://fonts.googleapis.com/css?family=Aleo);
 body
 {
     font-family: "Glegoo", "Kameron", "Aleo";
@@ -81,4 +86,20 @@ li {color: white;}
 .dc
 {
     color: #738ADB;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+}
+
+bg-darker
+{
+    background-color: rgb(33, 33, 33);
+}
+
+.coloryl
+{
+    color: #FFCC00;
 }

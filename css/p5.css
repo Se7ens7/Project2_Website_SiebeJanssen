@@ -1,3 +1,10 @@
+@import url(https://fonts.googleapis.com/css?family=Glegoo);
+
+@import url(https://fonts.googleapis.com/css?family=Kameron);
+
+@import url(https://fonts.googleapis.com/css?family=Aleo);
+
+
 body
 {
     font-family: "Glegoo", "Kameron", "Aleo";
@@ -54,6 +61,11 @@ p {color: white;}
 }
 
 .form > input
+{
+    width: 300px;
+}
+
+.form > select
 {
     width: 300px;
 }

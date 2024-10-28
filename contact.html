@@ -16,9 +16,6 @@
     />
     <link rel="stylesheet" href="css/p5.css" />
     <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&family=Glegoo:wght@400;700&family=Kameron:wght@400..700&display=swap");
-    </style>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-dark mb-4" data-bs-theme="dark">
@@ -60,15 +57,28 @@
       <div class="row mb-4">
         <h1 class="mt-5">Contact</h1>
         <div class="col">
-          <form class="form" action="#" method="post">
-            <label for="naam" class="form-label">Naam:</label>
+          <form
+            class="form"
+            action="https://tm-statweb.be/forms.php"
+            method="post"
+          >
+            <label for="voornaam" class="form-label">Voornaam:</label>
             <input
               class="form-control"
               required
               type="text"
-              name="naam"
-              id="naam"
-              placeholder="Naam"
+              name="voornaam"
+              id="voornaam"
+              placeholder="Voornaam"
+            />
+            <label for="familienaam" class="form-label">Familienaam:</label>
+            <input
+              class="form-control"
+              required
+              type="text"
+              name="familienaam"
+              id="familienaam"
+              placeholder="Familienaam"
             />
             <label for="email" class="form-label">E-mailadres:</label>
             <input
@@ -79,6 +89,14 @@
               id="naam"
               placeholder="E-mailadres"
             />
+            <label for="email" class="form-label">Skill interesse:</label>
+            <select class="form-select" name="skillselect" id="skillselect">
+              <option selected>HTML</option>
+              <option value="1">CSS</option>
+              <option value="2">Bootstrap</option>
+              <option value="3">SQL</option>
+              <option value="4">C#</option>
+            </select>
             <label for="onderwerp" class="form-label">onderwerp:</label>
             <input
               class="form-control"
