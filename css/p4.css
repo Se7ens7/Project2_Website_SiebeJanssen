@@ -67,3 +67,8 @@ li {color: white;}
 {
     color: #738ADB;
 }
+
+.brdrblack
+{
+    border: solid black 5px;
+}

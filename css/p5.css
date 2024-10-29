@@ -16,6 +16,13 @@ body
     flex-direction: column;
 }
 
+select
+{
+    font-family: "Glegoo", "Kameron", "Aleo";
+    font-weight: 400;
+    font-style: normal;
+}
+
 h1, a {color: #FFCC00;}
 
 a {text-decoration: none;}
