@@ -121,26 +121,155 @@
           </div>
         </div>
       </div>
-      <div class="mb-5">
+      <div class="col-md-2">
         <h2>Talen</h2>
-        <table>
-          <tr>
-            <td>Nederlands:</td>
-            <td>Zeer Goed</td>
-          </tr>
-          <tr>
-            <td>Engels:</td>
-            <td>Goed</td>
-          </tr>
-          <tr>
-            <td>Frans:</td>
-            <td>Beperkte kennis</td>
-          </tr>
-          <tr>
-            <td>Noors:</td>
-            <td>Beperkte kennis</td>
-          </tr>
-        </table>
+        <div class="accordion" id="accordionExample">
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="false"
+                aria-controls="collapseOne"
+              >
+                Nederlands
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Nederlands is mijn moedertaal, ik kan perfect nederlands spreken.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                Engels
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Engels kan ik al sinds jongs af aan spreken, ik kan dus vlot
+                engels spreken en verstaan
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                Frans
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Ik heb beperkte kennis over de franse taal, als er frans
+                gesproken wordt zal ik moeite hebben om dit te verstaan
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFour"
+                aria-expanded="false"
+                aria-controls="collapseFour"
+              >
+                Noors
+              </button>
+            </h2>
+            <div
+              id="collapseFour"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Noors kan ik beperkt verstaan en/of spreken.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mb-5"></div>
+      <div class="row">
+        <h2>Skills</h2>
+        <div id="recipeCarousel" class="carousel slide mb-4">
+          <div class="carousel-inner" role="listbox">
+              <div class="carousel-item active">
+                  <div class="col-md-4">
+                      <div class="card">
+                              <img src="images/S1.jpg" class="img-fluid">
+                      </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="col-md-4">
+                      <div class="card">
+                              <img src="images/S2.jpg" class="img-fluid">
+                      </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="col-md-4">
+                      <div class="card">
+                              <img src="images/S3.jpg" class="img-fluid">
+                      </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="col-md-4">
+                      <div class="card">
+                              <img src="images/S4.jpg" class="img-fluid">
+                      </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="col-md-4">
+                      <div class="card">
+                              <img src="images/S5.jpg" class="img-fluid">
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <a class="carousel-control-prev bg-transparent" href="#recipeCarousel" role="button" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          </a>
+          <a class="carousel-control-next bg-transparent" href="#recipeCarousel" role="button" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          </a>
+      </div>
+      </div>
       </div>
       <div class="row mb-5">
         <h2>Attesten</h2>
@@ -178,5 +307,6 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script src="js/p2.js"></script>
   </body>
 </html>

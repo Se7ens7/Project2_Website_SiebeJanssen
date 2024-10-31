@@ -16,6 +16,7 @@ body
     flex-direction: column;
 }
 
+
 h1, h2, a {color: #FFCC00;}
 
 a {text-decoration: none;}
@@ -24,7 +25,10 @@ a:hover {color: #F56702;}
 
 p, td {color: white;}
 
-
+.yellowtxt
+{
+    color: #FFCC00;
+}
 
 .nav
 {
@@ -119,4 +123,55 @@ td
 .dc
 {
     color: #738ADB;
+}
+
+.btn-warning {
+    --bs-btn-color: #000;
+    --bs-btn-bg: #FFCC00;
+    --bs-btn-border-color: #FFCC00;
+    --bs-btn-hover-color: #000;
+    --bs-btn-hover-bg: #e3b600;
+    --bs-btn-hover-border-color: #e3b600;
+    --bs-btn-focus-shadow-rgb: 217, 164, 6;
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg: #d6a71a;
+    --bs-btn-active-border-color: #d6a71a;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #000;
+    --bs-btn-disabled-bg: #c6a648;
+    --bs-btn-disabled-border-color: #c6a648;
+  }
+
+  @media (max-width: 767px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+    
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(25%);
+    }
+    
+    .carousel-inner .carousel-item-start.active, 
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-25%);
+    }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start { 
+  transform: translateX(0);
 }
